@@ -1,0 +1,29 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background: url(./images/shroompaper.png) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.nav-fixed {
+    background-color: #303030;
+    opacity: 0.80;
+}
+
+p span {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #000000;
+    background-color: #F2B544;
+    opacity: 0.85;
+}
+
+a {
+    color: #F2B544;
+}
+
+a:hover {
+    color: #91d9c4;
+}
