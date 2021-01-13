@@ -4,7 +4,7 @@
 
 ## Table of contents
 - [General Info](#general-info)
-- [About Page](#about-page)
+- [Homepage](#homepage)
 - [Portfolio Page](#portfolio-page)
 - [Contact Page](#contact-page)
 - [Technologies](#technologies)
@@ -23,14 +23,14 @@ This is my updated portfolio which meets, but is not limited to, the following c
 * Must contain your personalized information. (bio, name, images, links to social media, etc.)
 * Must properly utilize a CSS framework and grid system.
 
-## About Page
-![About Page](#)
+## Homepage
+![About Page](https://github.com/sloanlacey/portfolio-update/blob/main/assets/images/home.png)
 
 ## Portfolio Page
-![Portfolio Page](#)
+![Portfolio Page](https://github.com/sloanlacey/portfolio-update/blob/main/assets/images/portfolio.png)
 
 ## Contact Page
-![Contact Page](#)
+![Contact Page](https://github.com/sloanlacey/portfolio-update/blob/main/assets/images/contact.png)
 
 ## Technologies
 This project is created with:
