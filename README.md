@@ -21,16 +21,17 @@ This is my updated portfolio which meets, but is not limited to, the following c
 * Must use semantic html.
 * Each page must have valid and correct HTML. (use a validation service)
 * Must contain your personalized information. (bio, name, images, links to social media, etc.)
+* Has a downloadable link to your resumé
 * Must properly utilize a CSS framework and grid system.
 
 ## Homepage
-![About Page](https://github.com/sloanlacey/portfolio-update/blob/main/assets/images/home.png)
+![About Page](https://github.com/sloanlacey/portfolio-update/blob/main/assets/images/sloanhome.png)
 
 ## Portfolio Page
-![Portfolio Page](https://github.com/sloanlacey/portfolio-update/blob/main/assets/images/portfolio.png)
+![Portfolio Page](https://github.com/sloanlacey/portfolio-update/blob/main/assets/images/sloanportfolio.png)
 
 ## Contact Page
-![Contact Page](https://github.com/sloanlacey/portfolio-update/blob/main/assets/images/contact.png)
+![Contact Page](https://github.com/sloanlacey/portfolio-update/blob/main/assets/images/sloancontact.png)
 
 ## Technologies
 This project is created with:
