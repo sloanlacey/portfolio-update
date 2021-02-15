@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./assets/index.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="./assets/light.css">
     <title>Portfolio.</title>
 </head>
 <body>
@@ -15,8 +15,8 @@
  <div class="navbar">
     <nav class="nav-fixed">
             <div class="nav-wrapper">
-              <a class="brand-logo"><i class="material-icons" style="font-size: 50px; color:#F2B544;">brightness_3</i></a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color:#f5f5f5">menu</i></a>
+              <a href="index.html" class="brand-logo"><i class="material-icons" style="font-size: 50px; color:#F2B544;">brightness_3</i></a>
+              <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color:#f5f5f5">menu</i></a>
               <ul class="right hide-on-med-and-down">
                 <li><a style="color:#f5f5f5" href="./index.html">Home.</a></li>
                 <li><a style="color:#f5f5f5" href="./portfolio.html">Portfolio.</a></li>
@@ -35,40 +35,72 @@
 </div>
 <!-- Beginning of main container -->
 <div class="container">
-    <div class="row" style="margin-top: 25px;">
-<!-- Left -->
-        <div class="col s12 m12 l6">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="./assets/images/ssnhome.png">
-                </div>
-                <div class="card-content" style="background-color: black; opacity: 0.9;">
-                  <span class="card-title activator" style="color: #f5f5f5;">Solar System Navigator.<i class="material-icons right">more_vert</i></span>
-                  <p><a href="https://github.com/sloanlacey/Project-1" target="_blank">Repo.</a></p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Welcome to our solar system.<i class="material-icons right">close</i></span>
-                  <p>This application was designed to be educational, responsive and beautiful. It was a collaboration with a small team of developers. Please visit this repository for more information.</p>
-                </div>
+    <div class="row" style="margin-top: 50px;">
+<!-- Solar System Nav -->
+        <div class="col s12 m12 l12">
+          <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+              <a href="https://github.com/sloanlacey/solar-system-navigator" target="_blank" class="btn waves-effect" style="background-color: #F2B544; opacity: 0.85; color: #303030;">Repo</a>
+            </div>
+            <div id="solar-home" class="carousel-item" href="#one!">
+              <img src="./assets/images/ssnhome.png" alt="solar home page" style="max-width:88.5%">
+              <h2>Solar System Navigator</h2>
+              <p>Home</p>
+              <div class="carousel-fixed-item center"></div>
+              <div class="row" style="text-align: center;">
+              </div>
+            </div>
+            <div id="solar-home" class="carousel-item" href="#two!">
+              <img src="./assets/images/solarearth.png" alt="solar planet page" style="max-width:88.5%">
+              <h2>Solar System Navigator</h2>
+              <p>Planet Page</p>
+            </div>
+            <div id="solar-home" class="carousel-item" href="#three!">
+              <img src="./assets/images/solarmars.png" alt="solar planet page" style="max-width:88.5%">
+              <h2>Solar System Navigator</h2>
+              <p>Planet Page</p>
+            </div>
+            <div id="solar-home" class="carousel-item" href="#four!">
+              <img src="./assets/images/solarmodal.png" alt="solar planet page" style="max-width:88.5%">
+              <h2>Solar System Navigator</h2>
+              <p>Planet Page</p>
+            </div>
+          </div>
               </div>
         </div>
-<!-- Right -->
-<div class="col s12 m12 l6">
-    <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="./assets/images/weather-dashboard.png">
-        </div>
-        <div class="card-content" style="background-color: black; opacity: 0.9;">
-          <span class="card-title activator" style="color: #f5f5f5;">Weather Dashboard.<i class="material-icons right">more_vert</i></span>
-          <p><a href="https://github.com/sloanlacey/weather-dashboard" target="_blank">Repo.</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">How's the weather?<i class="material-icons right">close</i></span>
-          <p>This easy to use weather dashboard can show you the current and future weather conditions from wherever you are in the world. Your search history will be saved locally for easy recall options. Please visit this repository for more information.</p>
-        </div>
-      </div>
-</div>   
-</div>
+<!-- Weather Dashboard -->
+<div class="row" style="margin-top: 50px;">
+          <div class="col s12 m12 l12">
+            <div class="carousel carousel-slider center">
+              <div class="carousel-fixed-item center">
+                <a href="https://github.com/sloanlacey/weather-dashboard" target="_blank" class="btn waves-effect" style="background-color: #F2B544; opacity: 0.85; color: #303030;">Repo</a>
+              </div>
+              <div id="weather" class="carousel-item" href="#one!">
+                <img src="./assets/images/weather-dashboard.png" alt="solar home page" style="max-width:88.5%">
+                <h2>Solar System Navigator</h2>
+                <p>Home</p>
+                <div class="carousel-fixed-item center"></div>
+                <div class="row" style="text-align: center;">
+                </div>
+              </div>
+              <div id="weather" class="carousel-item" href="#two!">
+                <img src="./assets/images/weathersaved.png" alt="solar planet page" style="max-width:88.5%">
+                <h2>Solar System Navigator</h2>
+                <p>Planet Page</p>
+              </div>
+              <!-- <div id="weather" class="carousel-item" href="#three!">
+                <img src="./assets/images/solarmars.png" alt="solar planet page" style="max-width:88.5%">
+                <h2>Solar System Navigator</h2>
+                <p>Planet Page</p>
+              </div>
+              <div id="weather" class="carousel-item" href="#four!">
+                <img src="./assets/images/solarmodal.png" alt="solar planet page" style="max-width:88.5%">
+                <h2>Solar System Navigator</h2>
+                <p>Planet Page</p>
+              </div> -->
+            </div>
+                </div>
+          </div>
 
 <!-- Close main contianer -->
 </div>
@@ -91,6 +123,11 @@
     <script>
         $(document).ready(function() {
         $('.sidenav').sidenav();
+        });
+
+        $('.carousel.carousel-slider').carousel({
+          fullWidth: true,
+          indicators: true
         });
     </script>  
     <script type="text/javascript" src="./develop/index.js"></script>

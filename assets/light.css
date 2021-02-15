@@ -39,3 +39,14 @@ a:hover {
     text-align: center;
  }
 
+ #solar-home {
+    background-image: url('./images/solarbackground.jpg');
+    justify-content: center;
+    text-align: center;
+ }
+
+ #weather {
+    background-color: #303030;
+    justify-content: center;
+    text-align: center;
+ }
